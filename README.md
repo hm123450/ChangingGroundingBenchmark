@@ -67,9 +67,9 @@ Navigate to the dataset folder:
 cd 3rscandata/render
 ```
 
-#### 1. Prepare ScanNet Data
+#### 1. Prepare Data
 
-Follow the method [ChangingGroundingBenchmark](https://huggingface.co/datasets/miao1108316/ChangingGrounding) to download ChangingGroundingBenchmark
+Follow the method [ChangingGroundingBenchmark](https://huggingface.co/datasets/miao1108316/ChangingGrounding) to download ChangingGroundingBenchmark. Make sure you download the metafile 3RScan.json. 
 
 #### 2. Posed Images
 
@@ -93,7 +93,7 @@ Update the info file with posed images information:
 python tools/update_info_file_with_images.py
 ```
 
-### Run MCG
+### Benchmark test
 
 We release the test data used in our paper in the `outputs/query_analysis` folder (today.csv and yesterday.csv).
 
@@ -122,11 +122,11 @@ If you want to use new data, please refer to the following steps 2, 3, 4, 5, and
 
 Choose samples from Changing_Grounding.csv and process them , process for both yesterday.csv and today.csv:
 ```bash
-python csv_choose.py
-python csv_updated.py
+python choose.py
+python update.sh
 ```
 
-Calculate the fine-grained categories (e.g., Unique, Easy, VD). Also, do it for today.csv and yesterday.csv:
+Calculate the fine-grained categories (e.g., Unique, Multi). Also, do it for today.csv and yesterday.csv:
 ```bash
 python 3rscandata/render/tools/pre_compute_category.py 
 ```
@@ -165,21 +165,21 @@ Output results will be in the `/3rscandata/render/outputscan/image_instance_dete
 
 #### 6. View Pre-Selection
 
-Run the ViewPreSelection module to locate all images containing the predicted target class. This process takes about 0.7 seconds per sample:
+Run the ViewPreSelection module to locate all images containing the predicted target class. Noted that if you want to run MCG, you need to run it for today and yesterday, otherwise, baseline methods only need procession on today.
 ```bash
-python vlm_grounder/tools/view_pre_selection.py --vg_file outputs/query_analysis/*.csv --det_file outputs/image_instance_detector/*/chunk*/detection.pkl
+python 3rscandata/render/tools/vlm_grounder/tools/viewto.py
 ```
 
 A new CSV file will be produced in the QueryAnalysis output directory, with the suffix `_with_images_selected_diffconf_and_pkl` appended.
 
-#### 7. VLM Grounding
+#### 7. Benchmark test
 
-Run the VisualGrounder module. Intermediate results with visualization will be saved in `outputs/visual_grounding`.
+Run the baselines and MCG. Intermediate results with visualization will be saved in `test/outputs/`.
 
-A sample `run.sh` script is provided for ease, which can be modified to change parameters. 
-Please change the `VG_FILE`, `DET_INFO`, `MATCH_INFO`, `DATE`, and `EXP_NAME` variables accordingly.
+Enter test dir, you can see baseline exe files, `wg.sh`, `crg.sh`, `mog.sh`, and our framework exe file mcg-our.sh
 
-Note: The sampled data tested in the paper is at `outputs/query_analysis/nr3d_250.csv` and `outputs/query_analysis/scanrefer_250.csv`. 
+Please change the `VG_FILE`, `DET_INFO`, `MATCH_INFO`, `DATE`, and `EXP_NAME` variables accordingly to baseline exe files.
+
 ```bash
 #!/usr/bin/zsh
 source ~/.zshrc
@@ -215,21 +215,9 @@ python ./vlm_grounder/grounder/visual_grouder.py \
   --online_detector [yolo|gdino]
 ```
 
-#### 8. Nr3D Evaluation
+As for mcg-our.sh, except for `VG_FILE`, `DET_INFO`, `MATCH_INFO`, `DATE`, and `EXP_NAME` variables, you also need to update your yesVG_FILE in mcg-our.py.
 
-For Nr3D, we need to match the predicted bbox with the gt bbox before evaluation. We provide 3 evaluation methods: 2D IoU, GT Bbox IoU, and GT Bbox Distance. 
-
- - GT Bbox Distance: Choose the GT bbox with the smallest distance to the predicted bbox, which is used for Nr3D in the paper.
- - GT Bbox IoU: Choose the GT bbox with the highest IoU with the predicted bbox.
- - 2D IoU: Use 2d mask to compute IoU for evaluation. 
-
-```bash
-python vlm_grounder/eval/accuracy_evaluator.py --method [2d_iou|gtbbox_iou|gtbbox_dist] --exp_dir 
-outputs/visual_grouding/*
-```
-
-Note that to use 2D IoU matching, you need to unzip the `{scene_id}_2d-instance-filt.zip` files from the ScanNet dataset before running the evaluation.
 
 #### Reminder
-Some unused features have been temporarily left in the codes. They were relevant during the development phase but are not related to the final results. You can ignore them. If you encounter any issues, feel free to open an issue at any time.
+If you encounter any issues, feel free to open an issue at any time.
 
