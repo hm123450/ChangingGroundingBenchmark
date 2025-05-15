@@ -93,37 +93,26 @@ Update the info file with posed images information:
 python tools/update_info_file_with_images.py
 ```
 
-### Run VLM-Grounder
+### Run MCG
 
-First, set the path environment variable:
-```bash
-cd path/to/VLMGrounder
-export PYTHONPATH=$PYTHONPATH:path/to/VLMGrounder
-```
-
-We release the test data used in our paper in the `outputs/query_analysis` folder (scanrefer_250.csv and nr3d_250.csv).
+We release the test data used in our paper in the `outputs/query_analysis` folder (today.csv and yesterday.csv).
 
 #### 1. Download Cached Data
 We provide some cached data for our test data to save the cost of running the entire pipeline, which contains:
-1. [Exhaustive matching data](https://drive.google.com/file/d/1e17MOnJRsgm1uLuTPOH8Rz6tfAWAH3Uv/view?usp=drive_link) (containing all ScanRefer validation scenes and scenes in nr3d_250).
-2. [GDINO detect results](https://drive.google.com/file/d/1x2sx_G32Zbv7zwPWHZLtJoMP9i9NlS6D/view?usp=drive_link) (containing GDINO 1.5 pro detect results in scanrefer_250 and nr3d_250).
-3. [Global cache folder](https://drive.google.com/file/d/103EXV8FOmU_T5EC-MMiRwuzqSnTq4Bp3/view?usp=drive_link) (containing category_judger, new detections, and query_analysis results for scanrefer_250 and nr3d_250).
+1. [Exhaustive matching data](https://drive.google.com/file/d/1e17MOnJRsgm1uLuTPOH8Rz6tfAWAH3Uv/view?usp=drive_link) (containing all sample scene in test data).
+2. [Global cache folder](https://drive.google.com/file/d/103EXV8FOmU_T5EC-MMiRwuzqSnTq4Bp3/view?usp=drive_link) (containing category_judger, new detections, and query_analysis results for today.csv and yesterday.csv).
 
 Cached data folder structure: 
 ```bash
-data
-└── scannet
-    └── scannet_match_data
-        └── exhaustive_matching.pkl # Exhaustive matching data
-
+3rscandata
+└── render
+    └── outputscan
+        └── match_results 
+            └──result.pkl # Exhaustive matching data
 outputs
-├── global_cache # Global cache folder
-│   ├── category_judger
-│   ├── gdino_cache
-│   └── query_analysis_v2
-└── image_instance_detector # GDINO detect results
-    ├── Grounding-DINO-1_nr3d_test_top250_pred_target_classes
-    └── Grounding-DINO-1_scanrefer_test_top250_pred_target_classes
+└── global_cache # Global cache folder
+   ├── category_judger
+   └── query_analysis_v2
 
 ```
 
@@ -131,26 +120,24 @@ If you want to use new data, please refer to the following steps 2, 3, 4, 5, and
 
 #### 2. Prepare ScanRefer Data
 
-Convert ScanRefer to the Referit3D format:
+Choose samples from Changing_Grounding.csv and process them , process for both yesterday.csv and today.csv:
 ```bash
-python data/scannet/tools/convert_scanrefer_to_referit3d.py --input_json_path data/scannet/grounding/scanrefer/ScanRefer_filtered_val.json --output_csv_path data/scannet/grounding/referit3d/*.csv
+python csv_choose.py
+python csv_updated.py
 ```
 
-Subsample the CSV file for quick experiments:
+Calculate the fine-grained categories (e.g., Unique, Easy, VD). Also, do it for today.csv and yesterday.csv:
 ```bash
-python vlm_grounder/utils/csv_utils.py --csv_file data/scannet/grounding/referit3d/*.csv --sample_num 250
+python 3rscandata/render/tools/pre_compute_category.py 
 ```
 
-Calculate the fine-grained categories (e.g., Unique, Easy, VD):
-```bash
-python data/scannet/tools/pre_compute_category.py --vg_file data/scannet/grounding/referit3d/*.csv
-```
+Noted you should set the output path by your willing
 
 #### 3. Exhaustive Matching in the Scene
 
-Use PATS to obtain exhaustive matching data:
+Use PATS to obtain exhaustive matching data. This procession is for the baselines:
 ```bash
-python vlm_grounder/tools/exhaustive_matching.py --vg_file data/scannet/grounding/referit3d/*.csv
+python vlm_grounder/tools/exhaustive_matching.py
 ```
 
 This will generate `data/scannet/scannet_match_data/exhaustive_matching.pkl`, containing exhaustive matching data for each scene. Please note this process can take a long time (~20 minutes per scene). 
