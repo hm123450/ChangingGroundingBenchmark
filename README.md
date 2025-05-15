@@ -118,7 +118,7 @@ outputs
 
 If you want to use new data, please refer to the following steps 2, 3, 4, 5, and 6 to prepare data. If you want to use our test data, jump to [step 7](#7-vlm-grounding) directly.
 
-#### 2. Prepare ScanRefer Data
+#### 2. Prepare test samples
 
 Choose samples from Changing_Grounding.csv and process them , process for both yesterday.csv and today.csv:
 ```bash
@@ -135,34 +135,33 @@ Noted you should set the output path by your willing
 
 #### 3. Exhaustive Matching in the Scene
 
-Use PATS to obtain exhaustive matching data. This procession is for the baselines:
+Use PATS to obtain exhaustive matching data. This procession is for the baselines. If you only want run MCG, you don't need to run it:
 ```bash
-python vlm_grounder/tools/exhaustive_matching.py
+python 3rscandata/render/tools/vlm_grounder/tools/exhaustive_matching.py
 ```
 
-This will generate `data/scannet/scannet_match_data/exhaustive_matching.pkl`, containing exhaustive matching data for each scene. Please note this process can take a long time (~20 minutes per scene). 
+This will generate `/3rscandata/render/outputscan/match_results/result.pkl`
 
-**Note**: Using cached data provided in step 1 may save some time.
+
 
 #### 4. Query Analysis
 
-Run the QueryAnalysis module to analyze each query and get the predicted target class and conditions:
+Run the QueryAnalysis module to analyze each query and get the predicted target class and conditions for today.csv and yesterday.csv:
 ```bash
-python vlm_grounder/tools/query_analysis.py --vg_file data/scannet/grounding/referit3d/*_relations.csv
+python 3rscandata/render/tools/vlm_grounder/tools/querysisto.py
 ```
 
-The output will be in the `outputs/query_analysis` folder. Predicted target class accuracy typically exceeds 98%.
+The output will be in the `/3rscandata/render/outputscan/query_analysisto` folder. Predicted target class accuracy typically exceeds 99%.
 
 #### 5. Instance Detection
 
-Run the ImageInstanceDetector module to detect target class objects for each image. You can use Yolov8-world or Grounding-DINO-1.5-Pro for object detection. If using YOLO, `checkpoints/yolov8_world/yolov8x-worldv2.pt` will be downloaded automatically:
+Run the ImageInstanceDetector module to detect target class objects for each image. We suggest to use Yolov8-world for object detection for low cost and speed. If using YOLO, `checkpoints/yolov8_world/yolov8x-worldv2.pt` will be downloaded automatically. Noted that if you want to run MCG, you need to run it for today and yesterday, otherwise, baseline methods only need procession on today.
 ```bash
-python vlm_grounder/tools/image_instance_detector.py --vg_file outputs/query_analysis/*.csv --chunk_size -1 --detector [yolo|gdino]
+python 3rscandata/render/tools/vlm_grounder/tools/detectionto.py
 ```
 
-Output results will be in the `outputs/image_instance_detector` folder.
+Output results will be in the `/3rscandata/render/outputscan/image_instance_detectorto` folder.
 
-**Note**: If using gdino, ensure your quota is sufficient as this operation is quota-intensive. Using cached data provided in step 1 may save some time and quota.
 
 #### 6. View Pre-Selection
 
