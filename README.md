@@ -69,7 +69,9 @@ cd 3rscandata/render
 
 #### 1. Prepare Data
 
-Follow the method [ChangingGroundingBenchmark](https://huggingface.co/datasets/miao1108316/ChangingGrounding) to download ChangingGroundingBenchmark. Make sure you download the metafile 3RScan.json. 
+Follow the method [ChangingGroundingBenchmark](https://huggingface.co/datasets/miao1108316/ChangingGrounding) to download ChangingGroundingBenchmark. 
+Make sure you download the metafile 3RScan.json.
+Install the Nvidiffrast_tool in ChangingGroundingBenchmark/test dir
 
 #### 2. Posed Images
 
@@ -217,6 +219,11 @@ python ./vlm_grounder/grounder/visual_grouder.py \
 
 As for mcg-our.sh, except for `VG_FILE`, `DET_INFO`, `MATCH_INFO`, `DATE`, and `EXP_NAME` variables, you also need to update your yesVG_FILE in mcg-our.py.
 
+#### 8. Calculate cost and accuracy
+Noted you need to update your own output path in files.
+```bash
+python test/mcgcost.py
+```
 
 #### Reminder
 If you encounter any issues, feel free to open an issue at any time.
