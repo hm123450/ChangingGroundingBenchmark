@@ -1,0 +1,529 @@
+Global ID	Label	Unnamed: 2	NYU40 Mapping	Unnamed: 4	Eigen Mapping	Unnamed: 6	RIO27 Mapping	Unnamed: 8	RIO7 Mapping	#sum	#train	#test	#val	category
+1	air conditioner	40	otherprop	7	Objects	26	object	0	-	32	32	3	0	air conditioner
+2	apron	40	otherprop	7	Objects	14	clothes	0	-	4	4	0	0	cloth
+3	aquarium	40	otherprop	7	Objects	26	object	0	-	4	4	0	0	aquarium
+4	armchair	5	chair	4	Chair	5	chair	1	seating	375	332	38	43	armchair
+5	armoire	3	cabinet	6	Furniture	3	cabinet	0	-	5	0	0	5	cabinet
+6	armor	40	otherprop	7	Objects	14	clothes	0	-	4	4	0	0	cloth
+7	audio system	40	otherprop	7	Objects	26	object	0	-	2	2	0	0	stereo
+8	baby bed	39	otherfurniture	6	Furniture	0	-	0	-	8	8	0	0	bed
+9	baby changing table	7	table	10	Table	7	table	0	-	2	2	0	0	table
+10	baby changing unit	39	otherfurniture	6	Furniture	7	table	0	-	8	8	0	0	table
+11	baby gym	39	otherfurniture	6	Furniture	0	-	0	-	2	2	0	0	furniture
+12	baby seat	5	chair	4	Chair	5	chair	0	-	3	3	0	0	baby seat
+13	baby toys	40	otherprop	7	Objects	26	object	0	-	4	4	0	0	toy
+14	backpack	40	otherprop	7	Objects	26	object	6	items	110	106	22	4	backpack
+15	bag	37	bag	7	Objects	26	object	6	items	458	422	62	36	bag
+16	balcony	40	otherprop	7	Objects	0	-	0	-	4	4	0	0	balcony
+17	balcony door	8	door	0	-	8	door	0	-	12	12	0	0	door
+18	ball	40	otherprop	7	Objects	0	-	6	items	18	14	9	4	ball
+19	bar	38	otherstructure	0	-	10	counter	0	-	30	27	0	3	counter
+20	bar stool	5	chair	4	Chair	5	chair	0	-	14	14	0	0	stool
+21	barrel	40	otherprop	7	Objects	0	-	0	-	11	11	0	0	barrel
+22	barstool	40	otherprop	7	Objects	5	chair	0	-	7	7	0	0	stool
+23	basin	40	otherprop	7	Objects	0	-	0	-	9	6	0	3	basin
+24	basket	40	otherprop	7	Objects	20	box	0	-	237	227	8	10	basket
+25	bath cabinet	3	cabinet	6	Furniture	3	cabinet	2	table / cabinet	156	132	9	24	cabinet
+26	bath counter	12	counter	6	Furniture	10	counter	0	-	3	3	0	0	counter
+27	bath rack	15	shelves	6	Furniture	11	shelf	0	-	2	2	0	0	rack
+28	bath robe	40	otherprop	7	Objects	0	-	0	-	6	6	0	0	bathrobe
+29	bathrobe	40	otherprop	7	Objects	0	-	0	-	2	2	0	0	bathrobe
+30	bathroom items	40	otherprop	7	Objects	0	-	0	-	0	0	5	0	object
+31	bathtub	36	bathtub	6	Furniture	25	bathtub	0	-	58	54	5	4	bathtub
+32	bbq	40	otherprop	7	Objects	0	-	0	-	2	2	0	0	bbq
+33	beam	38	otherstructure	0	-	0	-	0	-	3	3	0	0	object
+34	bean bag	39	otherfurniture	6	Furniture	26	object	5	cushions	10	10	6	0	sofa
+35	beanbag	39	otherfurniture	6	Furniture	26	object	0	-	30	30	0	0	sofa
+36	beautician	40	otherprop	7	Objects	0	-	0	-	1	1	2	0	object
+37	bed	4	bed	1	Bed	4	bed	3	bed / sofa	232	226	44	6	bed
+38	bed table	7	table	10	Table	7	table	2	table / cabinet	1	1	2	0	table
+39	bedside table	7	table	10	Table	7	table	2	table / cabinet	36	32	13	4	table
+40	bench	39	otherfurniture	6	Furniture	5	chair	1	seating	203	185	30	18	bench
+41	beverage crate	29	box	7	Objects	20	box	0	-	39	39	0	0	box
+42	bicycle	40	otherprop	7	Objects	0	-	6	items	10	10	135	0	bike
+43	bidet	40	otherprop	7	Objects	0	-	4	appliances	11	9	0	2	toilet
+44	bike	40	otherprop	7	Objects	0	-	0	-	4	4	0	0	bike
+45	bin	40	otherprop	7	Objects	26	object	6	items	57	55	10	2	bin
+46	blackboard	38	otherstructure	0	-	1	wall	0	-	27	27	0	0	board
+47	blanket	40	otherprop	7	Objects	27	blanket	6	items	322	278	14	44	blanket
+48	blinds	13	blinds	7	Objects	9	window	0	-	152	148	17	4	blinds
+49	board	38	otherstructure	0	-	26	object	0	-	28	23	5	5	board
+50	body loofah	40	otherprop	7	Objects	0	-	0	-	3	3	0	0	sponge
+51	boiler	40	otherprop	7	Objects	0	-	0	-	4	4	0	0	boiler
+52	book	23	books	2	Books	0	-	0	-	56	41	5	15	book
+53	books	40	otherprop	7	Objects	0	-	0	-	30	25	3	5	book
+54	bookshelf	10	bookshelf	6	Furniture	11	shelf	0	-	37	30	9	7	bookshelf
+55	boots	40	otherprop	7	Objects	0	-	0	-	13	13	0	0	shoe
+56	bottle	40	otherprop	7	Objects	0	-	0	-	61	57	0	4	bottle
+57	bottles	40	otherprop	7	Objects	0	-	0	-	12	12	0	0	bottle
+58	bowl	40	otherprop	7	Objects	26	object	0	-	46	46	2	0	bowl
+59	box	29	box	7	Objects	20	box	6	items	1511	1403	203	108	box
+60	boxes	29	box	7	Objects	20	box	6	items	51	50	9	1	box
+61	bread	40	otherprop	7	Objects	0	-	0	-	7	6	0	1	bread
+62	breadboard	40	otherprop	7	Objects	0	-	0	-	7	7	0	0	board
+63	brochure	40	otherprop	7	Objects	0	-	0	-	3	3	0	0	paper
+64	brush	40	otherprop	7	Objects	0	-	0	-	1	1	0	0	brush
+65	bucket	40	otherprop	7	Objects	20	box	0	-	141	134	3	7	bucket
+66	buggy	40	otherprop	7	Objects	0	-	0	-	3	3	0	0	stroller
+67	bulletin board	40	otherprop	7	Objects	0	-	0	-	3	3	0	0	board
+68	cabinet	3	cabinet	6	Furniture	3	cabinet	2	table / cabinet	609	481	64	128	cabinet
+69	cable	40	otherprop	7	Objects	0	-	0	-	4	4	0	0	wire
+70	cable rack	15	shelves	6	Furniture	0	-	0	-	0	0	8	0	rack
+71	calendar	40	otherprop	7	Objects	0	-	0	-	2	2	0	0	calendar
+72	can	40	otherprop	7	Objects	0	-	0	-	4	4	0	0	can
+73	candle	40	otherprop	7	Objects	0	-	0	-	40	40	9	0	candle
+74	candles	40	otherprop	7	Objects	0	-	0	-	1	0	0	1	candle
+75	candlestick	40	otherprop	7	Objects	0	-	0	-	4	4	0	0	candle
+76	canopy	40	otherprop	7	Objects	0	-	0	-	2	2	2	0	object
+77	cap	40	otherprop	7	Objects	0	-	0	-	6	0	0	6	cloth
+78	carpet	40	otherprop	7	Objects	2	floor	0	-	39	32	1	7	carpet
+79	carriage	40	otherprop	7	Objects	0	-	0	-	3	3	0	0	stroller
+80	cart	40	otherprop	7	Objects	26	object	2	table / cabinet	2	0	5	2	cart
+81	case	40	otherprop	7	Objects	0	-	0	-	3	3	0	0	case
+82	ceiling	22	ceiling	3	Ceiling	15	ceiling	0	-	1246	1082	141	164	ceiling
+83	ceiling /other room	22	ceiling	3	Ceiling	15	ceiling	0	-	1	0	0	1	ceiling
+84	ceiling light	35	lamp	7	Objects	24	lamp	0	-	12	12	0	0	ceiling light
+85	chair	5	chair	4	Chair	5	chair	1	seating	2169	1975	456	194	chair
+86	chairs	5	chair	4	Chair	5	chair	0	-	8	8	0	0	chair
+87	chandelier	35	lamp	0	-	24	lamp	0	-	12	9	0	3	lamp
+88	changing table	7	table	10	Table	7	table	0	-	3	3	0	0	table
+89	chest	39	otherfurniture	6	Furniture	0	-	6	items	4	0	0	4	furniture
+90	child chair	5	chair	4	Chair	5	chair	1	seating	0	0	3	0	chair
+91	child clothes	21	clothes	7	Objects	14	clothes	0	-	4	4	0	0	cloth
+92	children's table	7	table	10	Table	7	table	0	-	4	4	0	0	table
+93	cleaning agent	40	otherprop	7	Objects	0	-	0	-	3	3	0	0	cleaning agent
+94	cleaning brush	40	otherprop	7	Objects	0	-	0	-	1	1	0	0	brush
+95	cleanser	40	otherprop	7	Objects	0	-	0	-	9	3	0	6	object
+96	clock	40	otherprop	7	Objects	0	-	0	-	58	38	7	20	clock
+97	closet	39	otherfurniture	6	Furniture	3	cabinet	0	-	25	23	0	2	closet
+98	closet door	8	door	0	-	8	door	0	-	2	2	0	0	door
+99	cloth	40	otherprop	7	Objects	14	clothes	0	-	2	2	0	0	cloth
+100	clothes	21	clothes	7	Objects	14	clothes	0	-	380	359	51	21	cloth
+101	clothes dryer	40	otherprop	7	Objects	0	-	0	-	70	68	4	2	clothes dryer
+102	clothes rack	15	shelves	6	Furniture	0	-	0	-	2	2	0	0	rack
+103	clutter	40	otherprop	7	Objects	0	-	6	items	153	121	34	32	clutter
+104	coat	40	otherprop	7	Objects	14	clothes	0	-	12	12	0	0	coat
+105	coffee	40	otherprop	7	Objects	0	-	0	-	1	1	0	0	drink
+106	coffee machine	40	otherprop	7	Objects	26	object	0	-	28	25	1	3	coffee maker
+107	coffee maker	40	otherprop	7	Objects	26	object	0	-	14	14	0	0	coffee maker
+108	coffee table	7	table	10	Table	7	table	2	table / cabinet	169	141	21	28	table
+109	column	38	otherstructure	0	-	0	-	0	-	19	17	7	2	column
+110	commode	3	cabinet	6	Furniture	3	cabinet	2	table / cabinet	269	238	50	31	commode
+111	computer	40	otherprop	7	Objects	26	object	0	-	12	12	1	0	computer
+112	computer desk	14	desk	10	Table	7	table	2	table / cabinet	12	7	0	5	table
+113	console	40	otherprop	7	Objects	0	-	0	-	5	5	0	0	console
+114	container	40	otherprop	7	Objects	20	box	6	items	28	0	0	28	container
+115	cooking pot	40	otherprop	7	Objects	0	-	0	-	3	1	0	2	pot
+116	corner bench	39	otherfurniture	6	Furniture	5	chair	1	seating	0	0	3	0	chair
+117	cosmetics kit	40	otherprop	7	Objects	0	-	0	-	0	0	1	0	cosmetics kit
+118	couch	6	sofa	9	Sofa	6	sofa	3	bed / sofa	117	80	9	37	sofa
+119	couch table	7	table	10	Table	7	table	2	table / cabinet	66	50	18	16	couch table
+120	counter	12	counter	6	Furniture	10	counter	0	-	108	95	16	13	counter
+121	cover	40	otherprop	7	Objects	0	-	0	-	3	3	0	0	cover
+122	cradle	39	otherfurniture	6	Furniture	0	-	0	-	4	4	0	0	cradle
+123	crate	39	otherfurniture	6	Furniture	0	-	0	-	4	4	0	0	crate
+124	crib	39	otherfurniture	6	Furniture	0	-	0	-	9	9	0	0	bed
+125	cube	40	otherprop	7	Objects	0	-	0	-	22	22	0	0	cube
+126	cup	40	otherprop	7	Objects	0	-	0	-	9	6	0	3	cup
+127	cupboard	3	cabinet	6	Furniture	11	shelf	2	table / cabinet	60	51	4	9	cupboard
+128	cups	40	otherprop	7	Objects	0	-	0	-	3	3	0	0	cup
+129	curtain	16	curtain	7	Objects	12	curtain	0	-	775	660	81	115	curtain
+130	curtain rail	16	curtain	7	Objects	12	curtain	0	-	8	8	0	0	curtain
+131	cushion	18	pillow	7	Objects	13	pillow	5	cushions	262	199	46	63	cushion
+132	cushions stack	18	pillow	7	Objects	13	pillow	0	-	0	0	7	0	cushion
+133	cut board	40	otherprop	7	Objects	0	-	0	-	10	10	0	0	cutting board
+134	cutting board	40	otherprop	7	Objects	26	object	6	items	34	26	4	8	cutting board
+135	cycling trainer	40	otherprop	7	Objects	0	-	0	-	4	4	0	0	cycling trainer
+136	darts	40	otherprop	7	Objects	0	-	0	-	4	4	0	0	object
+137	decoration	40	otherprop	7	Objects	0	-	0	-	131	96	5	35	decoration
+138	desk	14	desk	10	Table	7	table	2	table / cabinet	263	244	48	19	table
+139	desk chair	5	chair	4	Chair	5	chair	0	-	50	50	0	0	chair
+140	device	40	otherprop	7	Objects	0	-	6	items	28	28	6	0	object
+141	diapers	40	otherprop	7	Objects	0	-	0	-	4	4	0	0	object
+142	dining chair	5	chair	4	Chair	5	chair	1	seating	65	55	0	10	chair
+143	dining set	40	otherprop	7	Objects	0	-	0	-	2	2	0	0	object
+144	dining table	7	table	10	Table	7	table	2	table / cabinet	45	39	2	6	dining table
+145	discs	40	otherprop	7	Objects	0	-	0	-	2	2	0	0	object
+146	dish	40	otherprop	7	Objects	0	-	0	-	9	9	0	0	dish
+147	dish dryer	40	otherprop	7	Objects	0	-	0	-	12	12	0	0	dish dryer
+148	dishdrainer	40	otherprop	7	Objects	0	-	0	-	4	4	0	0	rack
+149	dishes	40	otherprop	7	Objects	0	-	0	-	4	4	0	0	dish
+150	dishwasher	38	otherstructure	0	-	0	-	0	-	9	9	0	0	dish washer
+151	dispenser	40	otherprop	7	Objects	0	-	0	-	7	7	0	0	dispenser
+152	documents	26	paper	7	Objects	0	-	0	-	8	8	0	0	paper
+153	dog	40	otherprop	7	Objects	0	-	0	-	1	0	0	1	object
+154	doll	40	otherprop	7	Objects	0	-	0	-	3	3	0	0	toy
+155	door	8	door	0	-	8	door	7	structure	880	770	97	110	door
+156	door /other room	8	door	0	-	8	door	0	-	4	4	0	0	door
+157	door mat	20	floor mat	7	Objects	2	floor	0	-	1	1	0	0	floor
+158	doorframe	38	otherstructure	0	-	8	door	0	-	388	332	33	56	door
+159	doorframe /other room	38	otherstructure	0	-	8	door	0	-	1	1	0	0	door
+160	drain pipe	38	otherstructure	0	-	0	-	0	-	2	2	0	0	object
+161	drawer	39	otherfurniture	6	Furniture	3	cabinet	2	table / cabinet	38	33	9	5	cabinet
+162	drawers	17	dresser	6	Furniture	3	cabinet	0	-	11	11	0	0	cabinet
+163	drawers rack	39	otherfurniture	6	Furniture	0	-	0	-	4	4	0	0	rack
+164	dress	40	otherprop	7	Objects	14	clothes	0	-	4	4	2	0	dress
+165	dresser	17	dresser	6	Furniture	3	cabinet	0	-	5	5	0	0	cabinet
+166	dressing table	7	table	10	Table	7	table	0	-	5	5	0	0	table
+167	drinks	40	otherprop	7	Objects	0	-	0	-	2	2	0	0	drink
+168	drum	40	otherprop	7	Objects	0	-	6	items	7	2	0	5	instrument
+169	drying machine	40	otherprop	7	Objects	0	-	4	appliances	22	13	0	9	clothes dryer
+170	drying rack	40	otherprop	7	Objects	0	-	0	-	8	8	1	0	rack
+171	dumbbells	40	otherprop	7	Objects	0	-	0	-	5	5	0	0	dumbbells
+172	elevator	38	otherstructure	0	-	0	-	0	-	4	4	0	0	elevator
+173	elliptical trainer	40	otherprop	7	Objects	0	-	0	-	3	3	0	0	object
+174	exhaust hood	40	otherprop	7	Objects	0	-	0	-	14	14	0	0	hood
+175	exit sign	40	otherprop	7	Objects	0	-	0	-	1	1	2	0	object
+176	extractor fan	40	otherprop	7	Objects	0	-	0	-	10	7	0	3	object
+177	fabric	40	otherprop	7	Objects	14	clothes	0	-	0	0	2	0	cloth
+178	fan	40	otherprop	7	Objects	0	-	0	-	9	7	3	2	fan
+179	fence	38	otherstructure	0	-	0	-	0	-	3	1	0	2	fence
+180	festoon	40	otherprop	7	Objects	0	-	0	-	4	4	0	0	decoration
+181	figure	40	otherprop	7	Objects	0	-	0	-	4	4	0	0	object
+182	file cabinet	3	cabinet	6	Furniture	3	cabinet	0	-	12	12	13	0	cabinet
+183	fire extinguisher	40	otherprop	7	Objects	26	object	0	-	6	6	0	0	fire extinguisher
+184	fireplace	38	otherstructure	0	-	0	-	0	-	31	18	2	13	fireplace
+185	firewood box	29	box	7	Objects	20	box	0	-	5	0	0	5	box
+186	flag	40	otherprop	7	Objects	0	-	0	-	3	3	0	0	decoration
+187	flipchart	40	otherprop	7	Objects	0	-	0	-	1	1	0	0	board
+188	floor	2	floor	5	Floor	2	floor	0	-	1341	1182	150	159	floor
+189	floor /other room	2	floor	5	Floor	2	floor	0	-	16	13	1	3	floor
+190	floor lamp	35	lamp	7	Objects	0	-	6	items	11	11	6	0	lamp
+191	floor mat	20	floor mat	7	Objects	2	floor	0	-	0	0	1	0	floor mat
+192	flower	40	otherprop	7	Objects	19	plant	0	-	45	36	4	9	flower
+193	flowers	40	otherprop	7	Objects	19	plant	6	items	35	26	2	9	flower
+194	flush	40	otherprop	7	Objects	0	-	0	-	14	14	0	0	toilet
+195	folded beach chairs	5	chair	4	Chair	5	chair	0	-	5	5	0	0	chair
+196	folder	40	otherprop	7	Objects	0	-	0	-	16	9	0	7	folder
+197	folding chair	5	chair	4	Chair	5	chair	0	-	3	3	0	0	chair
+198	food	40	otherprop	7	Objects	0	-	0	-	15	10	0	5	food
+199	foosball table	40	otherprop	7	Objects	7	table	0	-	14	14	0	0	foosball table
+200	footstool	39	otherfurniture	6	Furniture	5	chair	1	seating	6	4	2	2	footstool
+201	frame	38	otherstructure	0	-	0	-	0	-	106	84	15	22	frame
+202	fridge	24	refridgerator	6	Furniture	16	fridge	0	-	4	0	0	4	refrigerator
+203	fruit	40	otherprop	7	Objects	0	-	0	-	3	3	0	0	food
+204	fruit plate	40	otherprop	7	Objects	0	-	0	-	4	1	0	3	plate
+205	fruits	40	otherprop	7	Objects	0	-	0	-	11	11	0	0	food
+206	furniture	39	otherfurniture	6	Furniture	0	-	0	-	13	13	0	0	furniture
+207	garbage	40	otherprop	7	Objects	26	object	6	items	41	37	9	4	garbage
+208	garbage bin	40	otherprop	7	Objects	26	object	6	items	28	22	3	6	trash bin
+209	garden umbrella	40	otherprop	7	Objects	0	-	0	-	2	2	0	0	umbrella
+210	generator	40	otherprop	7	Objects	0	-	0	-	3	3	0	0	object
+211	glass	38	otherstructure	0	-	0	-	0	-	2	0	0	2	glass
+212	glass wall	1	wall	12	Wall	1	wall	0	-	6	6	0	0	wall
+213	grass	38	otherstructure	0	-	19	plant	0	-	5	3	0	2	plant
+214	guitar	40	otherprop	7	Objects	26	object	0	-	14	14	0	0	instrument
+215	gymnastic ball	40	otherprop	7	Objects	0	-	1	seating	3	0	0	3	ball
+216	hair dryer	40	otherprop	7	Objects	0	-	0	-	1	1	2	0	hair dryer
+217	hand brush	40	otherprop	7	Objects	0	-	0	-	4	4	0	0	hand brush
+218	hand dryer	40	otherprop	7	Objects	0	-	0	-	21	15	2	6	hand dryer
+219	hand washer	40	otherprop	7	Objects	0	-	0	-	5	5	0	0	washer
+220	handbag	40	otherprop	7	Objects	0	-	0	-	6	6	0	0	bag
+221	handhold	40	otherprop	7	Objects	0	-	0	-	0	0	7	0	object
+222	handle	40	otherprop	7	Objects	0	-	0	-	0	0	2	0	object
+223	handrail	38	otherstructure	0	-	0	-	0	-	3	3	0	0	object
+224	hanger	40	otherprop	7	Objects	0	-	0	-	19	19	4	0	hanger
+225	hangers	40	otherprop	7	Objects	0	-	0	-	2	2	0	0	hanger
+226	hanging cabinet	3	cabinet	6	Furniture	3	cabinet	0	-	12	12	0	0	cabinet
+227	headboard	39	otherfurniture	6	Furniture	0	-	0	-	0	0	2	0	board
+228	heater	39	otherfurniture	6	Furniture	26	object	0	-	319	281	47	38	heater
+229	helmet	40	otherprop	7	Objects	0	-	0	-	3	3	0	0	object
+230	hood	40	otherprop	7	Objects	0	-	0	-	4	0	0	4	hood
+231	humidifier	40	otherprop	7	Objects	0	-	0	-	12	12	0	0	object
+232	hygiene products	40	otherprop	7	Objects	0	-	0	-	3	3	0	0	object
+233	instrument	40	otherprop	7	Objects	0	-	0	-	2	2	0	0	instrument
+234	iron	40	otherprop	7	Objects	0	-	0	-	4	4	1	0	object
+235	ironing board	40	otherprop	7	Objects	26	object	0	-	21	21	1	0	ironing board
+236	item	40	otherprop	7	Objects	26	object	6	items	804	715	87	89	object
+237	items	40	otherprop	7	Objects	26	object	0	-	35	35	0	0	object
+238	jacket	40	otherprop	7	Objects	14	clothes	0	-	3	1	1	2	cloth
+239	jalousie	13	blinds	7	Objects	9	window	0	-	17	17	0	0	blinds
+240	jar	40	otherprop	7	Objects	0	-	0	-	22	15	2	7	bottle
+241	jug	40	otherprop	7	Objects	0	-	0	-	2	2	0	0	bottle
+242	juicer	40	otherprop	7	Objects	0	-	0	-	3	3	0	0	juicer
+243	kettle	40	otherprop	7	Objects	26	object	6	items	50	42	0	8	kettle
+244	keyboard	40	otherprop	7	Objects	26	object	0	-	30	23	5	7	keyboard
+245	kids bicycle	40	otherprop	7	Objects	0	-	0	-	2	2	0	0	bike
+246	kids chair	5	chair	4	Chair	5	chair	0	-	7	7	0	0	chair
+247	kids rocking chair	5	chair	4	Chair	5	chair	0	-	3	3	0	0	rocking chair
+248	kids stool	5	chair	4	Chair	5	chair	0	-	4	4	0	0	stool
+249	kids table	7	table	10	Table	7	table	0	-	2	2	0	0	table
+250	kitchen appliance	40	otherprop	7	Objects	0	-	0	-	94	83	3	11	object
+251	kitchen cabinet	3	cabinet	6	Furniture	3	cabinet	0	-	382	326	10	56	cabinet
+252	kitchen counter	12	counter	6	Furniture	10	counter	0	-	143	125	3	18	counter
+253	kitchen hood	40	otherprop	7	Objects	0	-	0	-	14	8	1	6	hood
+254	kitchen item	40	otherprop	7	Objects	26	object	0	-	6	6	0	0	object
+255	kitchen object	40	otherprop	7	Objects	26	object	6	items	3	0	0	3	object
+256	kitchen playset	40	otherprop	7	Objects	0	-	0	-	2	2	0	0	object
+257	kitchen rack	15	shelves	6	Furniture	11	shelf	0	-	9	9	0	0	rack
+258	kitchen sink	34	sink	6	Furniture	23	sink	0	-	0	0	4	0	sink
+259	kitchen sofa	6	sofa	9	Sofa	6	sofa	0	-	3	0	0	3	sofa
+260	kitchen towel	27	towel	7	Objects	18	towel	0	-	36	35	4	1	kitchen towel
+261	knife box	29	box	7	Objects	20	box	0	-	3	3	0	0	box
+262	ladder	39	otherfurniture	6	Furniture	0	-	0	-	19	17	3	2	ladder
+263	lamp	35	lamp	7	Objects	24	lamp	6	items	797	685	73	112	lamp
+264	laptop	40	otherprop	7	Objects	26	object	6	items	59	56	4	3	laptop
+265	laundry basket	40	otherprop	7	Objects	20	box	6	items	43	33	7	10	laundry basket
+266	letter	26	paper	7	Objects	0	-	0	-	8	8	0	0	paper
+267	light	38	otherstructure	0	-	24	lamp	0	-	396	359	60	37	light
+268	linen	21	clothes	7	Objects	14	clothes	0	-	2	0	0	2	cloth
+269	locker	3	cabinet	6	Furniture	3	cabinet	0	-	12	12	0	0	cabinet
+270	lockers	39	otherfurniture	6	Furniture	0	-	0	-	4	4	0	0	cabinet
+271	loft bed	4	bed	1	Bed	4	bed	0	-	6	6	0	0	bed
+272	lounger	5	chair	4	Chair	5	chair	0	-	1	1	0	0	chair
+273	luggage	40	otherprop	7	Objects	26	object	0	-	16	16	0	0	luggage
+274	machine	40	otherprop	7	Objects	26	object	0	-	11	8	2	3	machine
+275	magazine	40	otherprop	7	Objects	0	-	0	-	2	2	0	0	magazine
+276	magazine files	40	otherprop	7	Objects	0	-	0	-	9	9	0	0	storage
+277	magazine rack	15	shelves	6	Furniture	11	shelf	0	-	4	2	0	2	rack
+278	magazine stand	39	otherfurniture	6	Furniture	0	-	0	-	2	2	0	0	stand
+279	mandarins	40	otherprop	7	Objects	0	-	0	-	3	3	0	0	mandarins
+280	mannequin	40	otherprop	7	Objects	0	-	0	-	4	4	0	0	mannequin
+281	mask	40	otherprop	7	Objects	0	-	0	-	0	0	2	0	cloth
+282	mattress	40	otherprop	7	Objects	4	bed	0	-	4	4	0	0	mattress
+283	medical device	40	otherprop	7	Objects	0	-	0	-	2	2	0	0	object
+284	menu	40	otherprop	7	Objects	0	-	0	-	13	1	0	12	object
+285	meter	40	otherprop	7	Objects	0	-	0	-	5	5	0	0	object
+286	microwave	40	otherprop	7	Objects	0	-	0	-	76	66	0	10	microwave
+287	milk	40	otherprop	7	Objects	0	-	0	-	5	5	0	0	food
+288	mirror	19	mirror	7	Objects	0	-	0	-	128	120	16	8	mirror
+289	monitor	40	otherprop	7	Objects	26	object	0	-	260	244	69	16	monitor
+290	mop	40	otherprop	7	Objects	0	-	0	-	9	9	0	0	object
+291	multicooker	40	otherprop	7	Objects	0	-	0	-	5	5	0	0	object
+292	napkins	40	otherprop	7	Objects	0	-	0	-	16	15	8	1	paper
+293	newspaper	26	paper	7	Objects	0	-	0	-	2	2	0	0	newspaper
+294	newspaper rack	15	shelves	6	Furniture	11	shelf	0	-	4	4	0	0	rack
+295	nightstand	32	night stand	6	Furniture	21	nightstand	2	table / cabinet	157	156	27	1	table
+296	notebook	40	otherprop	7	Objects	26	object	0	-	6	6	0	0	notebook
+297	notebooks	40	otherprop	7	Objects	0	-	0	-	2	2	0	0	notebook
+298	object	40	otherprop	7	Objects	26	object	6	items	660	581	38	79	object
+299	objects	40	otherprop	7	Objects	26	object	0	-	20	19	3	1	object
+300	office chair	5	chair	4	Chair	5	chair	0	-	14	14	0	0	office chair
+301	office table	7	table	10	Table	7	table	0	-	13	13	0	0	office table
+302	organizer	40	otherprop	7	Objects	0	-	0	-	40	37	4	3	organizer
+303	ottoman	39	otherfurniture	6	Furniture	6	sofa	5	cushions	72	41	5	31	ottoman
+304	oven	38	otherstructure	0	-	0	-	0	-	88	72	2	16	oven
+305	oven glove	40	otherprop	7	Objects	14	clothes	0	-	4	0	0	4	cloth
+306	pack	40	otherprop	7	Objects	0	-	0	-	52	36	4	16	pack
+307	package	40	otherprop	7	Objects	0	-	0	-	3	3	0	0	pack
+308	packs	40	otherprop	7	Objects	0	-	0	-	3	3	0	0	pack
+309	painting	11	picture	8	Picture	1	wall	0	-	7	7	3	0	picture
+310	pan	40	otherprop	7	Objects	0	-	0	-	14	12	1	2	object
+311	paper	26	paper	7	Objects	0	-	0	-	10	10	0	0	paper
+312	paper cutter	40	otherprop	7	Objects	0	-	0	-	5	5	0	0	object
+313	paper holder	40	otherprop	7	Objects	0	-	0	-	2	2	0	0	object
+314	paper sign	26	paper	7	Objects	0	-	0	-	3	3	0	0	paper
+315	paper stack	26	paper	7	Objects	0	-	0	-	10	10	3	0	paper
+316	paper towel	40	otherprop	7	Objects	18	towel	0	-	24	21	0	3	paper towel
+317	paper towel dispenser	40	otherprop	7	Objects	0	-	0	-	16	13	4	3	paper towel dispenser
+318	papers	26	paper	7	Objects	0	-	0	-	8	6	0	2	paper
+319	partition	1	wall	12	Wall	1	wall	0	-	23	23	0	0	wall
+320	pavement	38	otherstructure	0	-	0	-	0	-	2	2	0	0	object
+321	pc	40	otherprop	7	Objects	26	object	0	-	100	95	17	5	pc
+322	pepper	40	otherprop	7	Objects	0	-	0	-	3	3	0	0	pepper
+323	pet bed	40	otherprop	7	Objects	13	pillow	5	cushions	5	5	4	0	bed
+324	photo frame	11	picture	8	Picture	0	-	0	-	6	6	0	0	picture
+325	photos	11	picture	8	Picture	0	-	0	-	2	2	0	0	picture
+326	piano	39	otherfurniture	6	Furniture	0	-	0	-	8	8	0	0	piano
+327	picture	11	picture	8	Picture	0	-	6	items	585	492	50	93	picture
+328	pictures	11	picture	8	Picture	26	object	0	-	4	4	5	0	picture
+329	pile	40	otherprop	7	Objects	0	-	0	-	8	8	0	0	pile
+330	pile of books	40	otherprop	7	Objects	0	-	0	-	20	12	0	8	book
+331	pile of bottles	40	otherprop	7	Objects	0	-	0	-	9	6	0	3	bottle
+332	pile of candles	40	otherprop	7	Objects	0	-	0	-	2	0	0	2	candle
+333	pile of folders	26	paper	7	Objects	0	-	0	-	4	4	3	0	folder
+334	pile of papers	26	paper	7	Objects	0	-	0	-	8	4	3	4	paper
+335	pile of pillows	18	pillow	7	Objects	13	pillow	0	-	4	4	0	0	pillow
+336	pile of wires	40	otherprop	7	Objects	0	-	0	-	1	1	0	0	wire
+337	pillar	38	otherstructure	0	-	0	-	0	-	59	59	10	0	pillar
+338	pillow	18	pillow	7	Objects	13	pillow	5	cushions	1569	1362	198	207	pillow
+339	pin board wall	40	otherprop	7	Objects	1	wall	0	-	4	4	0	0	wall
+340	pipe	40	otherprop	7	Objects	0	-	0	-	50	46	4	4	pipe
+341	plank	38	otherstructure	0	-	0	-	0	-	85	85	0	0	plank
+342	plant	40	otherprop	7	Objects	19	plant	6	items	993	833	74	160	plant
+343	planter	40	otherprop	7	Objects	19	plant	0	-	3	3	0	0	plant
+344	plants	40	otherprop	7	Objects	19	plant	0	-	8	8	0	0	plant
+345	plate	40	otherprop	7	Objects	0	-	0	-	60	50	1	10	plate
+346	plates	40	otherprop	7	Objects	0	-	0	-	6	6	0	0	plate
+347	platform	38	otherstructure	0	-	0	-	0	-	2	2	0	0	platform
+348	player	40	otherprop	7	Objects	0	-	0	-	10	7	0	3	player
+349	pocket	40	otherprop	7	Objects	0	-	0	-	3	3	0	0	object
+350	podest	39	otherfurniture	6	Furniture	0	-	0	-	2	2	0	0	furniture
+351	pooh	40	otherprop	7	Objects	0	-	0	-	2	2	0	0	toy
+352	poster	11	picture	8	Picture	1	wall	0	-	6	6	3	0	picture
+353	pot	40	otherprop	7	Objects	26	object	0	-	45	38	0	7	pot
+354	price tag	40	otherprop	7	Objects	0	-	0	-	22	22	3	0	object
+355	printer	40	otherprop	7	Objects	26	object	0	-	55	42	0	13	printer
+356	projector	40	otherprop	7	Objects	0	-	0	-	0	0	3	0	projector
+357	puf	39	otherfurniture	6	Furniture	0	-	0	-	61	61	0	0	footstool
+358	puppet	40	otherprop	7	Objects	0	-	0	-	2	2	1	0	toy
+359	rack	39	otherfurniture	6	Furniture	0	-	0	-	112	101	6	11	rack
+360	radiator	39	otherfurniture	6	Furniture	26	object	0	-	165	146	5	19	radiator
+361	radio	40	otherprop	7	Objects	0	-	0	-	4	4	0	0	stereo
+362	rag	27	towel	7	Objects	0	-	0	-	4	0	0	4	towel
+363	rail	38	otherstructure	0	-	0	-	0	-	3	3	0	0	rail
+364	railing	38	otherstructure	0	-	0	-	0	-	8	8	0	0	rail
+365	ramp	38	otherstructure	0	-	0	-	0	-	7	7	0	0	object
+366	recycle bin	40	otherprop	7	Objects	26	object	0	-	19	17	0	2	bin
+367	refrigerator	24	refridgerator	6	Furniture	16	fridge	4	appliances	79	73	6	6	refrigerator
+368	rocking chair	5	chair	4	Chair	5	chair	1	seating	5	3	0	2	rocking chair
+369	roll	40	otherprop	7	Objects	0	-	0	-	48	48	0	0	roll
+370	rolled carpet	20	floor mat	7	Objects	2	floor	0	-	11	11	0	0	floor
+371	rolling cart	40	otherprop	7	Objects	26	object	0	-	4	4	0	0	cart
+372	rolling pin	40	otherprop	7	Objects	0	-	0	-	5	5	0	0	object
+373	roof	22	ceiling	3	Ceiling	15	ceiling	0	-	1	1	0	0	roof
+374	round table	7	table	10	Table	7	table	2	table / cabinet	11	5	0	6	table
+375	rowing machine	40	otherprop	7	Objects	0	-	0	-	4	4	0	0	rowing machine
+376	rubbish bin	40	otherprop	7	Objects	26	object	0	-	6	6	0	0	trash bin
+377	rug	40	otherprop	7	Objects	0	-	0	-	28	28	0	0	carpet
+378	sack	37	bag	7	Objects	0	-	0	-	56	56	4	0	bag
+379	salad	40	otherprop	7	Objects	0	-	0	-	3	3	0	0	food
+380	salt	40	otherprop	7	Objects	0	-	0	-	12	12	3	0	spice
+381	sauce boat	40	otherprop	7	Objects	0	-	0	-	0	0	2	0	dish
+382	scale	40	otherprop	7	Objects	0	-	0	-	24	22	1	2	scale
+383	scarf	40	otherprop	7	Objects	14	clothes	0	-	2	2	0	0	scarf
+384	screen	40	otherprop	7	Objects	0	-	0	-	7	2	0	5	screen
+385	seat	39	otherfurniture	6	Furniture	5	chair	0	-	3	3	0	0	seat
+386	seat pad	18	pillow	7	Objects	13	pillow	0	-	6	6	0	0	seat pad
+387	sewing machine	40	otherprop	7	Objects	26	object	0	-	6	6	0	0	sewing machine
+388	shades	38	otherstructure	0	-	0	-	0	-	32	32	0	0	shades
+389	shampoo	40	otherprop	7	Objects	0	-	0	-	8	8	0	0	shampoo
+390	sheets	40	otherprop	7	Objects	0	-	0	-	4	4	0	0	sheets
+391	shelf	15	shelves	6	Furniture	11	shelf	2	table / cabinet	1423	1278	145	145	shelf
+392	shelf clutter	40	otherprop	7	Objects	11	shelf	0	-	2	2	0	0	shelf
+393	shelf of caps	15	shelves	6	Furniture	11	shelf	0	-	3	3	0	0	shelf
+394	shelf unit	15	shelves	6	Furniture	11	shelf	0	-	15	15	0	0	shelf
+395	shelves	15	shelves	6	Furniture	11	shelf	0	-	21	21	9	0	shelf
+396	shirt	40	otherprop	7	Objects	14	clothes	0	-	3	3	0	0	cloth
+397	shoe	40	otherprop	7	Objects	0	-	6	items	9	5	0	4	shoe
+398	shoe box	29	box	7	Objects	20	box	0	-	2	2	0	0	shoe box
+399	shoe commode	17	dresser	6	Furniture	3	cabinet	0	-	3	3	0	0	cabinet
+400	shoe rack	15	shelves	6	Furniture	11	shelf	0	-	7	4	0	3	rack
+401	shoe shelf	15	shelves	6	Furniture	11	shelf	0	-	11	11	0	0	shelf
+402	shoes	40	otherprop	7	Objects	0	-	0	-	97	92	23	5	shoe
+403	showcase	3	cabinet	6	Furniture	3	cabinet	2	table / cabinet	69	58	15	11	showcase
+404	shower	38	otherstructure	0	-	0	-	0	-	49	46	7	3	shower
+405	shower curtain	28	shower curtain	7	Objects	12	curtain	0	-	51	44	10	7	curtain
+406	shower door	8	door	0	-	8	door	0	-	6	0	0	6	door
+407	shower floor	2	floor	5	Floor	2	floor	0	-	11	9	0	2	floor
+408	shower gel	40	otherprop	7	Objects	0	-	0	-	3	3	0	0	shampoo
+409	shower wall	1	wall	12	Wall	1	wall	0	-	47	25	5	22	wall
+410	side table	7	table	10	Table	7	table	2	table / cabinet	84	59	3	25	sidetable
+411	sideboard	12	counter	6	Furniture	0	-	0	-	6	6	0	0	sideboard
+412	sidecouch	6	sofa	9	Sofa	6	sofa	0	-	8	8	0	0	sidecouch
+413	sidetable	7	table	10	Table	7	table	0	-	6	6	0	0	sidetable
+414	sign	40	otherprop	7	Objects	0	-	0	-	6	6	0	0	object
+415	sink	34	sink	6	Furniture	23	sink	4	appliances	380	320	22	60	sink
+416	sink counter	12	counter	6	Furniture	10	counter	0	-	2	2	0	0	sink
+417	slanted wall	1	wall	12	Wall	1	wall	0	-	2	2	0	0	wall
+418	snowboard	40	otherprop	7	Objects	26	object	0	-	6	6	0	0	board
+419	soap	40	otherprop	7	Objects	0	-	0	-	2	2	4	0	soap
+420	soap dish	40	otherprop	7	Objects	0	-	0	-	6	3	0	3	soap dish
+421	soap dispenser	40	otherprop	7	Objects	0	-	0	-	32	32	0	0	soap dispenser
+422	socket	40	otherprop	7	Objects	0	-	0	-	8	7	0	1	socket
+423	sofa	6	sofa	9	Sofa	6	sofa	3	bed / sofa	246	210	22	36	sofa
+424	sofa chair	5	chair	4	Chair	5	chair	3	bed / sofa	27	23	2	4	sofa chair
+425	sofa couch	6	sofa	9	Sofa	6	sofa	0	-	2	2	0	0	sofa
+426	speaker	40	otherprop	7	Objects	0	-	0	-	28	28	0	0	speaker
+427	spice	40	otherprop	7	Objects	0	-	0	-	0	0	12	0	spice
+428	spices	40	otherprop	7	Objects	0	-	0	-	3	3	0	0	spice
+429	sponge	40	otherprop	7	Objects	0	-	0	-	3	0	0	3	sponge
+430	spots	40	otherprop	7	Objects	0	-	0	-	2	2	0	0	object
+431	squeezer	40	otherprop	7	Objects	0	-	0	-	6	6	0	0	squeezer
+432	stair	38	otherstructure	0	-	0	-	0	-	16	13	8	3	stair
+433	stairs	38	otherstructure	0	-	0	-	0	-	49	48	0	1	stair
+434	stand	39	otherfurniture	6	Furniture	7	table	6	items	129	116	13	13	stand
+435	star	40	otherprop	7	Objects	0	-	0	-	4	4	0	0	object
+436	statue	40	otherprop	7	Objects	0	-	0	-	10	10	0	0	decoration
+437	statuette	40	otherprop	7	Objects	0	-	0	-	4	4	0	0	decoration
+438	stepladder	39	otherfurniture	6	Furniture	0	-	0	-	2	2	0	0	ladder
+439	stereo	40	otherprop	7	Objects	0	-	0	-	1	1	0	0	stereo
+440	stereo equipment	40	otherprop	7	Objects	26	object	0	-	5	5	0	0	stereo
+441	stick	40	otherprop	7	Objects	0	-	0	-	2	2	0	0	stick
+442	stool	40	otherprop	7	Objects	5	chair	1	seating	323	300	8	23	stool
+443	storage	40	otherprop	7	Objects	0	-	0	-	2	2	0	0	storage
+444	storage bin	40	otherprop	7	Objects	26	object	0	-	6	0	3	6	storage
+445	storage box	29	box	7	Objects	20	box	0	-	22	22	0	0	storage
+446	storage container	29	box	7	Objects	20	box	6	items	6	2	0	4	storage
+447	storage unit	39	otherfurniture	6	Furniture	3	cabinet	0	-	3	3	0	0	storage
+448	stove	38	otherstructure	0	-	0	-	0	-	100	83	1	17	stove
+449	stroller	40	otherprop	7	Objects	0	-	0	-	3	3	0	0	stroller
+450	stuffed animal	40	otherprop	7	Objects	0	-	0	-	31	30	13	1	stuffed animal
+451	sugar packs	40	otherprop	7	Objects	0	-	0	-	3	3	0	0	spice
+452	suitcase	40	otherprop	7	Objects	0	-	6	items	61	55	2	6	suitcase
+453	switch	40	otherprop	7	Objects	0	-	0	-	2	2	0	0	object
+454	t-shirt	40	otherprop	7	Objects	14	clothes	0	-	6	6	0	0	cloth
+455	table	7	table	10	Table	7	table	2	table / cabinet	855	767	113	88	table
+456	table lamp	35	lamp	7	Objects	24	lamp	6	items	39	31	11	8	lamp
+457	table soccer	40	otherprop	7	Objects	0	-	0	-	1	1	0	0	table
+458	tablet	40	otherprop	7	Objects	0	-	0	-	7	7	2	0	object
+459	teapot	40	otherprop	7	Objects	0	-	0	-	2	2	0	0	pot
+460	teddy bear	40	otherprop	7	Objects	0	-	0	-	1	1	0	0	toy
+461	telephone	40	otherprop	7	Objects	0	-	0	-	57	52	1	5	telephone
+462	tennis raquet	40	otherprop	7	Objects	0	-	6	items	4	0	0	4	object
+463	tent	40	otherprop	7	Objects	0	-	0	-	2	2	0	0	tent
+464	things	40	otherprop	7	Objects	0	-	0	-	4	4	0	0	object
+465	tile	40	otherprop	7	Objects	0	-	0	-	0	0	10	0	object
+466	tire	40	otherprop	7	Objects	0	-	0	-	4	4	0	0	tire
+467	tissue pack	40	otherprop	7	Objects	0	-	0	-	2	2	0	0	object
+468	toaster	40	otherprop	7	Objects	26	object	6	items	11	7	0	4	object
+469	toilet	33	toilet	6	Furniture	22	toilet	4	appliances	155	128	17	27	toilet
+470	toilet brush	40	otherprop	7	Objects	0	-	0	-	50	38	9	12	toilet brush
+471	toilet paper	40	otherprop	7	Objects	0	-	0	-	66	54	10	12	toilet paper
+472	toilet paper dispenser	40	otherprop	7	Objects	0	-	0	-	23	11	0	12	toilet paper dispenser
+473	toilet paper holder	40	otherprop	7	Objects	0	-	0	-	10	10	0	0	toilet paper holder
+474	toiletry	40	otherprop	7	Objects	0	-	0	-	13	13	10	0	object
+475	tool wall	40	otherprop	7	Objects	1	wall	0	-	4	4	0	0	wall
+476	towel	27	towel	7	Objects	18	towel	0	-	339	306	30	33	towel
+477	towel basket	40	otherprop	7	Objects	0	-	0	-	6	6	0	0	laundry basket
+478	towels	27	towel	7	Objects	18	towel	0	-	5	5	0	0	towel
+479	toy	40	otherprop	7	Objects	0	-	0	-	26	26	0	0	toy
+480	toy house	40	otherprop	7	Objects	0	-	0	-	4	4	0	0	toy
+481	trash bin	40	otherprop	7	Objects	26	object	0	-	0	0	6	0	trash bin
+482	trash can	40	otherprop	7	Objects	26	object	6	items	320	287	23	33	trash bin
+483	trashcan	39	otherfurniture	6	Furniture	26	object	0	-	9	6	2	3	trash can
+484	tray	40	otherprop	7	Objects	0	-	0	-	13	13	0	0	tray
+485	treadmill	39	otherfurniture	6	Furniture	0	-	0	-	4	1	0	3	furniture
+486	tree	40	otherprop	7	Objects	0	-	0	-	2	2	0	0	plant
+487	tree decoration	40	otherprop	7	Objects	0	-	0	-	5	0	0	5	tree decoration
+488	tube	40	otherprop	7	Objects	0	-	0	-	33	27	0	6	tube
+489	tv	25	television	11	TV	17	tv	4	appliances	211	172	17	39	tv
+490	tv stand	39	otherfurniture	6	Furniture	3	cabinet	2	table / cabinet	106	75	15	31	tv stand
+491	tv table	7	table	10	Table	7	table	0	-	6	6	0	0	table
+492	typewriter	40	otherprop	7	Objects	0	-	0	-	1	1	0	0	object
+493	ukulele	40	otherprop	7	Objects	0	-	0	-	2	2	0	0	instrument
+494	umbrella	40	otherprop	7	Objects	0	-	0	-	13	13	3	0	umbrella
+495	upholstered wall	1	wall	12	Wall	1	wall	0	-	8	8	0	0	wall
+496	urinal	40	otherprop	7	Objects	0	-	0	-	2	2	0	0	object
+497	utensils	40	otherprop	7	Objects	0	-	0	-	2	0	0	2	object
+498	vacuum	40	otherprop	7	Objects	0	-	0	-	6	6	2	0	vacuum cleaner
+499	vacuum cleaner	40	otherprop	7	Objects	26	object	0	-	28	28	2	0	vacuum cleaner
+500	vase	40	otherprop	7	Objects	0	-	0	-	104	60	13	44	vase
+501	ventilation	38	otherstructure	0	-	26	object	0	-	9	9	2	0	object
+502	ventilator	40	otherprop	7	Objects	0	-	0	-	9	1	0	8	object
+503	wall	1	wall	12	Wall	1	wall	0	-	5707	5052	605	655	wall
+504	wall /other room	1	wall	12	Wall	1	wall	0	-	28	22	0	6	wall
+505	wall frame	11	picture	8	Picture	1	wall	0	-	54	54	13	0	wall
+506	wall plants	40	otherprop	7	Objects	19	plant	0	-	2	2	0	0	plant
+507	wall rack	15	shelves	6	Furniture	11	shelf	0	-	3	3	0	0	rack
+508	wardrobe	39	otherfurniture	6	Furniture	3	cabinet	2	table / cabinet	250	236	47	14	wardrobe
+509	wardrobe door	8	door	0	-	8	door	0	-	7	7	0	0	door
+510	washbasin	34	sink	6	Furniture	23	sink	0	-	3	3	0	0	washbasin
+511	washing basket	40	otherprop	7	Objects	26	object	0	-	21	21	0	0	laundry basket
+512	washing machine	40	otherprop	7	Objects	0	-	0	-	89	74	0	15	washing machine
+513	washing powder	40	otherprop	7	Objects	26	object	0	-	8	7	0	1	washing powder
+514	water	40	otherprop	7	Objects	0	-	0	-	5	5	0	0	water
+515	water heater	40	otherprop	7	Objects	0	-	0	-	9	9	0	0	water heater
+516	watering can	40	otherprop	7	Objects	0	-	0	-	4	4	0	0	watering can
+517	weights	40	otherprop	7	Objects	0	-	0	-	1	1	0	0	weights
+518	weigths	40	otherprop	7	Objects	0	-	0	-	3	3	0	0	object
+519	whiteboard	30	whiteboard	7	Objects	1	wall	0	-	52	52	19	0	board
+520	window	9	window	13	Window	9	window	7	structure	867	781	97	86	window
+521	window board	38	otherstructure	0	-	9	window	0	-	4	4	0	0	window
+522	window clutter	40	otherprop	7	Objects	9	window	0	-	4	4	0	0	window
+523	window frame	38	otherstructure	0	-	9	window	0	-	53	53	7	0	window
+524	windows	9	window	13	Window	9	window	0	-	1	0	0	1	window
+525	windowsill	38	otherstructure	0	-	9	window	0	-	246	229	28	17	window
+526	wood	40	otherprop	7	Objects	0	-	0	-	8	0	3	8	object
+527	wood box	29	box	7	Objects	20	box	0	-	2	2	0	0	box
+528	xbox	40	otherprop	7	Objects	0	-	0	-	2	2	0	0	object

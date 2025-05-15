@@ -1,0 +1,46 @@
+[
+    {
+      "id": 0,
+      "images": [
+        "/mnt/afs/xurunsen/ysh/gradio/data_to_deliver/ScanNet_v2_val/scene0329_02/00990.jpg",
+        "/mnt/afs/xurunsen/ysh/gradio/data_to_deliver/ScanNet_v2_val/scene0329_02/01020.jpg"
+      ],
+      "question_type": "运动感知 camera",
+      "question": "The images are taken continuously from a first-person perspective. In which direction are you moving?\nOptions: A: Left while moving backward, B: Forward to the left, C: Forward to the right, D: Right while moving backward",
+      "answer": "C"
+    },
+    {
+      "id": 1,
+      "images": [
+        "/mnt/afs/xurunsen/ysh/gradio/data_to_deliver/agibot_image/359/648749/hand_left_color/120.jpg",
+        "/mnt/afs/xurunsen/ysh/gradio/data_to_deliver/agibot_image/359/648749/hand_left_color/140.jpg"
+      ],
+      "question_type": "运动感知 camera",
+      "question": "The images are taken continuously from a first-person perspective. In which direction is the camera rotating?\nOptions: A: Back, B: Left, C: Right, D: Forward",
+      "answer": "B"
+    },
+    {
+      "id": 773,
+      "images": [
+        "/mnt/afs/xurunsen/ysh/gradio/data_to_deliver/ScanNet_v2_val/scene0552_01/00000.jpg",
+        "/mnt/afs/xurunsen/ysh/gradio/data_to_deliver/ScanNet_v2_val/scene0552_01/00060.jpg",
+        "/mnt/afs/xurunsen/ysh/gradio/data_to_deliver/ScanNet_v2_val/scene0552_01/00120.jpg",
+        "/mnt/afs/xurunsen/ysh/gradio/data_to_deliver/ScanNet_v2_val/scene0552_01/00210.jpg",
+        "/mnt/afs/xurunsen/ysh/gradio/data_to_deliver/ScanNet_v2_val/scene0552_01/00240.jpg",
+        "/mnt/afs/xurunsen/ysh/gradio/data_to_deliver/ScanNet_v2_val/scene0552_01/00600.jpg"
+      ],
+      "question_type": "多步推理",
+      "question": "In the series of photos taken from a first-person perspective, where is the printer located relative to you in the last photo?\nOptions: A: Rear left, B: Rear right, C: Right, D: Rear",
+      "answer": "C"
+    },
+    {
+      "id": 3,
+      "images": [
+        "/mnt/afs/xurunsen/ysh/gradio/data_to_deliver/matterport3d_test/WYY7iVyf5p8/9c7760cd03fd476ca23d0b15fc7cfa16_i2_2.jpg",
+        "/mnt/afs/xurunsen/ysh/gradio/data_to_deliver/matterport3d_test/WYY7iVyf5p8/9c7760cd03fd476ca23d0b15fc7cfa16_i2_4.jpg"
+      ],
+      "question_type": "位置关系 cam-object",
+      "question": "When you took the second photo, where was the toilet in relation to you?\nOptions: A: back right, B: front right, C: front left, D: back left",
+      "answer": "D"
+    }
+]

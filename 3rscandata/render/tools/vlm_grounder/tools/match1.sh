@@ -1,0 +1,9 @@
+CUDA_VISIBLE_DEVICES=7 python exhaustive_matching.py --scene_range_begin 96 --scene_range_end 102 &
+CUDA_VISIBLE_DEVICES=7 python exhaustive_matching.py --scene_range_begin 102 --scene_range_end 108 &
+CUDA_VISIBLE_DEVICES=5 python exhaustive_matching.py --scene_range_begin 108 --scene_range_end 114 &
+CUDA_VISIBLE_DEVICES=5 python exhaustive_matching.py --scene_range_begin 114 --scene_range_end 120 &
+CUDA_VISIBLE_DEVICES=4 python exhaustive_matching.py --scene_range_begin 120 --scene_range_end 126 &
+CUDA_VISIBLE_DEVICES=4 python exhaustive_matching.py --scene_range_begin 126 --scene_range_end 132 &
+CUDA_VISIBLE_DEVICES=3 python exhaustive_matching.py --scene_range_begin 132 --scene_range_end 138 &
+CUDA_VISIBLE_DEVICES=3 python exhaustive_matching.py --scene_range_begin 138 --scene_range_end 144 &
+CUDA_VISIBLE_DEVICES=1 python exhaustive_matching.py --scene_range_begin 144 --scene_range_end -1 &
