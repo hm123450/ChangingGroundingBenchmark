@@ -71,7 +71,7 @@ cd 3rscandata/render
 
 Follow the method [ChangingGroundingBenchmark](https://huggingface.co/datasets/miao1108316/ChangingGrounding) to download ChangingGroundingBenchmark. 
 Make sure you download the metafile 3RScan.json.
-Install the Nvidiffrast_tool in ChangingGroundingBenchmark/test dir
+Install the Nvidiffrast_tool in ChangingGroundingBenchmark/testvlm dir
 
 #### 2. Posed Images
 
@@ -176,9 +176,9 @@ A new CSV file will be produced in the QueryAnalysis output directory, with the 
 
 #### 7. Benchmark test
 
-Run the baselines and MCG. Intermediate results with visualization will be saved in `test/outputs/`.
+Run the baselines and MCG. Intermediate results with visualization will be saved in `testvlm/outputs/`.
 
-Enter test dir, you can see baseline exe files, `wg.sh`, `crg.sh`, `mog.sh`, and our framework exe file mcg-our.sh
+Enter testvlm dir, you can see baseline exe files, `wg.sh`, `crg.sh`, `mog.sh`, and our framework exe file mcg-our.sh
 
 Please change the `VG_FILE`, `DET_INFO`, `MATCH_INFO`, `DATE`, and `EXP_NAME` variables accordingly to baseline exe files.
 
@@ -222,7 +222,7 @@ As for mcg-our.sh, except for `VG_FILE`, `DET_INFO`, `MATCH_INFO`, `DATE`, and `
 #### 8. Calculate cost and accuracy
 Noted you need to update your own output path in files.
 ```bash
-python test/mcgcost.py
+python testvlm/mcgcost.py
 ```
 
 #### Reminder
