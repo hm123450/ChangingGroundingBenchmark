@@ -97,7 +97,7 @@ python tools/update_info_file_with_images.py
 
 ### Benchmark test
 
-We release the test data used in our paper in the `outputs/query_analysis` folder today.csv and yesterday.csv [cache](https://huggingface.co/datasets/miao1108316/changinggroundingcache)  
+We release the test data used in our paper today.csv and yesterday.csv, and category_judger cache in [cache](https://huggingface.co/datasets/miao1108316/changinggroundingcache)  
 
 
 #### 1. Prepare test samples
@@ -207,4 +207,6 @@ python testvlm/mcgcost.py
 
 #### Reminder
 If you encounter any issues, feel free to open an issue at any time.
+
+
 
