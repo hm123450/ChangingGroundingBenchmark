@@ -97,30 +97,10 @@ python tools/update_info_file_with_images.py
 
 ### Benchmark test
 
-We release the test data used in our paper in the `outputs/query_analysis` folder (today.csv and yesterday.csv).
+We release the test data used in our paper in the `outputs/query_analysis` folder [today.csv and yesterday.csv](https://huggingface.co/datasets/miao1108316/changinggroundingcache)  
 
-#### 1. Download Cached Data
-We provide some cached data for our test data to save the cost of running the entire pipeline, which contains:
-1. [Exhaustive matching data](https://drive.google.com/file/d/1e17MOnJRsgm1uLuTPOH8Rz6tfAWAH3Uv/view?usp=drive_link) (containing all sample scene in test data).
-2. [Global cache folder](https://drive.google.com/file/d/103EXV8FOmU_T5EC-MMiRwuzqSnTq4Bp3/view?usp=drive_link) (containing category_judger, new detections, and query_analysis results for today.csv and yesterday.csv).
 
-Cached data folder structure: 
-```bash
-3rscandata
-└── render
-    └── outputscan
-        └── match_results 
-            └──result.pkl # Exhaustive matching data
-outputs
-└── global_cache # Global cache folder
-   ├── category_judger
-   └── query_analysis_v2
-
-```
-
-If you want to use new data, please refer to the following steps 2, 3, 4, 5, and 6 to prepare data. If you want to use our test data, jump to [step 7](#7-vlm-grounding) directly.
-
-#### 2. Prepare test samples
+#### 1. Prepare test samples
 
 Choose samples from Changing_Grounding.csv and process them , process for both yesterday.csv and today.csv:
 ```bash
@@ -135,7 +115,7 @@ python 3rscandata/render/tools/pre_compute_category.py
 
 Noted you should set the output path by your willing
 
-#### 3. Exhaustive Matching in the Scene
+#### 2. Exhaustive Matching in the Scene
 
 Use PATS to obtain exhaustive matching data. This procession is for the baselines. If you only want run MCG, you don't need to run it:
 ```bash
@@ -146,7 +126,7 @@ This will generate `/3rscandata/render/outputscan/match_results/result.pkl`
 
 
 
-#### 4. Query Analysis
+#### 3. Query Analysis
 
 Run the QueryAnalysis module to analyze each query and get the predicted target class and conditions for today.csv and yesterday.csv:
 ```bash
@@ -155,7 +135,7 @@ python 3rscandata/render/tools/vlm_grounder/tools/querysisto.py
 
 The output will be in the `/3rscandata/render/outputscan/query_analysisto` folder. Predicted target class accuracy typically exceeds 99%.
 
-#### 5. Instance Detection
+#### 4. Instance Detection
 
 Run the ImageInstanceDetector module to detect target class objects for each image. We suggest to use Yolov8-world for object detection for low cost and speed. If using YOLO, `checkpoints/yolov8_world/yolov8x-worldv2.pt` will be downloaded automatically. Noted that if you want to run MCG, you need to run it for today and yesterday, otherwise, baseline methods only need procession on today.
 ```bash
@@ -165,7 +145,7 @@ python 3rscandata/render/tools/vlm_grounder/tools/detectionto.py
 Output results will be in the `/3rscandata/render/outputscan/image_instance_detectorto` folder.
 
 
-#### 6. View Pre-Selection
+#### 5. View Pre-Selection
 
 Run the ViewPreSelection module to locate all images containing the predicted target class. Noted that if you want to run MCG, you need to run it for today and yesterday, otherwise, baseline methods only need procession on today.
 ```bash
@@ -174,7 +154,7 @@ python 3rscandata/render/tools/vlm_grounder/tools/viewto.py
 
 A new CSV file will be produced in the QueryAnalysis output directory, with the suffix `_with_images_selected_diffconf_and_pkl` appended.
 
-#### 7. Benchmark test
+#### 6. Benchmark test
 
 Run the baselines and MCG. Intermediate results with visualization will be saved in `testvlm/outputs/`.
 
@@ -219,7 +199,7 @@ python ./vlm_grounder/grounder/visual_grouder.py \
 
 As for mcg-our.sh, except for `VG_FILE`, `DET_INFO`, `MATCH_INFO`, `DATE`, and `EXP_NAME` variables, you also need to update your yesVG_FILE in mcg-our.py.
 
-#### 8. Calculate cost and accuracy
+#### 7. Calculate cost and accuracy
 Noted you need to update your own output path in files.
 ```bash
 python testvlm/mcgcost.py
