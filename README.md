@@ -60,8 +60,8 @@ This work is licensed under a
 [cc-by-nc-shield]: https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg
 
 ## Acknowledgment
-MMSI-Bench makes use of data from existing image datasets: [ScanNet](http://www.scan-net.org/), [nuScenes](https://www.nuscenes.org/), [Matterport3D](https://niessner.github.io/Matterport/), [Ego4D](https://ego4d-data.org/), [AgiBot-World](https://agibot-world.cn/), [DTU](https://roboimagedata.compute.dtu.dk/?page_id=36), [DAVIS-2017](https://davischallenge.org/) ,and [Waymo](https://waymo.com/open/). We thank these teams for their open-source contributions.
+ChangingGrounding makes use of data from the existing image dataset: [3RScan](https://waldjohannau.github.io/RIO/). We thank these teams for their open-source contributions.
 
 ## Contact
-- Sihan Yang: sihany077@gmail.com
+- Miao Hu: 2464882060@stu.xjtu.edu.cn
 - Runsen Xu:  runsxu@gmail.com
