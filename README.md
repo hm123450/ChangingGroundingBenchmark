@@ -1,8 +1,8 @@
 <div align="center">
 
-# ChangingGrounding: 3D Visual Grounding in Changing Scenes 
+# ChangingGrounding: 3D Visual Grounding in Changing Scenes
 
-/div>
+</div>
 
 <p align="center">
   <!-- <b>Authors</b><br> -->
