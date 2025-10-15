@@ -26,11 +26,11 @@
   <sup>*</sup>Corresponding Author
 </p>
 
-<!-- <a href="https://arxiv.org/pdf/2505.23764">📑 Paper</a>  |
-  <a href="https://arxiv.org/abs/2505.23764">📖 arXiv</a> -->
+<!-- <a href="">📑 Paper</a>  |
+  <a href="">📖 arXiv</a> -->
 
 
-<!-- [**🌐 Homepage**](https://runsenxu.com/projects/MMSI_Bench/) | [**📑 Paper**](https://arxiv.org/pdf/2505.23764)  | [**📖 arXiv**](https://arxiv.org/abs/2505.23764)   -->
+
 <p align="center">
   <a href="https://hm123450.github.io/CGB/">🌐 Homepage</a>
 </p>
