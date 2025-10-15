@@ -60,7 +60,7 @@ This work is licensed under a
 [cc-by-nc-shield]: https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg
 
 ## Acknowledgment
-ChangingGrounding makes use of data from the existing image dataset: [3RScan](https://waldjohannau.github.io/RIO/). We thank these teams for their open-source contributions.
+The ChangingGrounding dataset builds upon [3RScan](https://waldjohannau.github.io/RIO/) and [ReferIt3D](https://github.com/referit3d/referit3d). Our method implementation is adapted from [VLM-Grounder](https://github.com/InternRobotics/VLM-Grounder). We thank these teams for their open-source contributions.
 
 ## Contact
 - Miao Hu: 2464882060@stu.xjtu.edu.cn
