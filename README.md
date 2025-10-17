@@ -32,7 +32,9 @@
 
 
 <p align="center">
-  <a href="https://hm123450.github.io/CGB/">🌐 Homepage</a>
+  <a href="https://hm123450.github.io/CGB/">🌐 Homepage</a> |
+  <a href="https://arxiv.org/pdf/2510.14965">📑 Paper</a>  |
+  <a href="https://arxiv.org/abs/2510.14965">📖 arXiv</a>
 </p>
 
 
@@ -59,6 +61,22 @@ This work is licensed under a
 [cc-by-nc]: https://creativecommons.org/licenses/by-nc/4.0/
 [cc-by-nc-image]: https://licensebuttons.net/l/by-nc/4.0/88x31.png
 [cc-by-nc-shield]: https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg
+
+## 🔗 Citation
+
+If you find our work helpful, please consider citing:
+
+```bibtex
+@misc{hu2025changinggrounding3dvisualgrounding,
+      title={ChangingGrounding: 3D Visual Grounding in Changing Scenes}, 
+      author={Miao Hu and Zhiwei Huang and Tai Wang and Jiangmiao Pang and Dahua Lin and Nanning Zheng and Runsen Xu},
+      year={2025},
+      eprint={2510.14965},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2510.14965}, 
+}
+```
 
 ## Acknowledgment
 The ChangingGrounding dataset builds upon [3RScan](https://waldjohannau.github.io/RIO/) and [ReferIt3D](https://github.com/referit3d/referit3d). Our method implementation is adapted from [VLM-Grounder](https://github.com/InternRobotics/VLM-Grounder). We thank these teams for their open-source contributions.
