@@ -64,7 +64,7 @@ This work is licensed under a
 
 ## 🔗 Citation
 
-If you find our work helpful, please consider citing:
+If you find our work helpful, please consider citing and starring this repo 🌟:
 
 ```bibtex
 @misc{hu2025changinggrounding3dvisualgrounding,
